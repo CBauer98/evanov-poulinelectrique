@@ -4,10 +4,11 @@
 
 ## Français
 
-Page de téléchargement des créatifs display pour les deux IO d'Evanov Communications, en français et en anglais.
+Page de téléchargement des créatifs display pour les deux IO d'Evanov Communications, en français, en anglais et en version bilingue.
 
 - **IO 1 – Generac (balise A)** et **IO 2 – Poulin Électrique (balise B)**
-- 48 fichiers : 24 JPG et 24 MP4, en 6 formats (300×250, 728×90, 160×600, 300×600, 970×250, 320×50)
+- 72 fichiers : 36 JPG et 36 MP4, en 6 formats (300×250, 728×90, 160×600, 300×600, 970×250, 320×50), en français (`_FR_`), en anglais (`_EN_`) et bilingues (`_BI_`)
+- Créatifs bilingues : le français est prédominant; la traduction anglaise, plus petite, occupe moins de la moitié de l'espace du texte français (Charte de la langue française, art. 58)
 - MP4 : H.264, sans son, 14,5 s, moins de 200 Ko, joue une fois. Image de secours : le JPG du même format.
 - `Static/` et `Video-MP4/` : les créatifs, classés par IO
 - `Evanov_creative_list_FR.csv` (séparateur « ; ») et `Evanov_creative_list_EN.csv` : liste des créatifs avec les URL de clic
@@ -18,10 +19,11 @@ La page est publiée par GitHub Pages sur evanov.poulinelectrique.com (fichier `
 
 ## English
 
-Download page for the display creatives for Evanov Communications' two IOs, in French and English.
+Download page for the display creatives for Evanov Communications' two IOs, in French, English and bilingual versions.
 
 - **IO 1 – Generac (tag A)** and **IO 2 – Poulin Électrique (tag B)**
-- 48 files: 24 JPG and 24 MP4, in 6 sizes (300×250, 728×90, 160×600, 300×600, 970×250, 320×50)
+- 72 files: 36 JPG and 36 MP4, in 6 sizes (300×250, 728×90, 160×600, 300×600, 970×250, 320×50), in French (`_FR_`), English (`_EN_`) and bilingual (`_BI_`)
+- Bilingual creatives: French is predominant; the smaller English translation takes less than half the space of the French text (Charter of the French Language, s. 58)
 - MP4: H.264, no sound, 14.5 s, under 200 KB, plays once. Backup image: the JPG of the same size.
 - `Static/` and `Video-MP4/`: the creatives, by IO
 - `Evanov_creative_list_EN.csv` and `Evanov_creative_list_FR.csv` (";" separator): creative list with click-through URLs
