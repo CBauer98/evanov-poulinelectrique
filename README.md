@@ -14,6 +14,7 @@ Page de téléchargement des créatifs display pour les deux IO d'Evanov Communi
 - `Evanov_creative_list_FR.csv` (séparateur « ; ») et `Evanov_creative_list_EN.csv` : liste des créatifs avec les URL de clic
 - `Proof_*.jpg` : épreuves des images fixes et des vidéos
 - `Evanov_PEI_display_2026-10.zip` : tout le contenu en un fichier
+- `Logos/` : les logos utilisés sur le site
 
 La page est publiée par GitHub Pages sur evanov.poulinelectrique.com (fichier `CNAME`). Elle n'est pas indexée par les moteurs de recherche.
 
@@ -29,5 +30,6 @@ Download page for the display creatives for Evanov Communications' two IOs, in F
 - `Evanov_creative_list_EN.csv` and `Evanov_creative_list_FR.csv` (";" separator): creative list with click-through URLs
 - `Proof_*.jpg`: proofs of the static and video creatives
 - `Evanov_PEI_display_2026-10.zip`: everything in one file
+- `Logos/`: the logos used on the site
 
 The page is published by GitHub Pages at evanov.poulinelectrique.com (`CNAME` file). It is hidden from search engines.
