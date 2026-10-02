@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Evanov creatives · Poulin Électrique Inc</title>
+<link rel="alternate" hreflang="fr-CA" href="https://evanov.poulinelectrique.com/">
+<link rel="alternate" hreflang="en-CA" href="https://evanov.poulinelectrique.com/en/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--pei-black:#050505;--pei-black-2:#0B0B0B;--pei-panel:#101010;--pei-panel-2:#161616;--pei-border:#262626;
+--pei-red:#D63A34;--pei-red-dark:#B32B26;--pei-cream:#F1EDE6;--pei-text:#B9B9B9;--pei-muted:#8A8A8A;--gen-logo:#F48F20}
+*{box-sizing:border-box;margin:0;padding:0}
+[hidden]{display:none!important}
+html{background:var(--pei-black)}
+body{min-height:100vh;color:var(--pei-text);font:16px/1.6 Inter,system-ui,sans-serif;background:
+ radial-gradient(1200px 900px at 82% 6%,rgba(214,58,52,.20),transparent 60%),
+ radial-gradient(900px 700px at 96% 48%,rgba(214,58,52,.12),transparent 60%),
+ radial-gradient(1100px 800px at 68% 96%,rgba(214,58,52,.10),transparent 60%),var(--pei-black);background-attachment:scroll}
+a{color:inherit}
+.wrap{max-width:1240px;margin:0 auto;padding:40px 24px 80px}
+h1,h2,h3,.size,.btn,.dl a,.play{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.01em}
+.top{display:flex;gap:28px;align-items:center;flex-wrap:wrap;margin-bottom:28px}
+.top img{width:150px;height:auto;filter:drop-shadow(0 6px 22px rgba(214,58,52,.35))}
+.kicker{font-family:Oswald,sans-serif;font-weight:600;font-size:15px;letter-spacing:.14em;text-transform:uppercase;color:var(--pei-cream);display:flex;align-items:center;gap:10px}
+.kicker::before{content:"";width:5px;height:18px;background:var(--pei-red);border-radius:1px}
+h1{font-weight:600;color:var(--pei-cream);font-size:clamp(34px,5vw,60px);line-height:1.05;margin:6px 0 8px}
+.lead{max-width:62ch;color:var(--pei-text)}
+.en{color:var(--pei-muted)}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin:26px 0 18px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:14px 22px;border-radius:9px;font-weight:600;letter-spacing:.05em;font-size:16px;text-decoration:none;border:1px solid var(--pei-border);background:#191919;color:var(--pei-cream);transition:background .15s}
+.btn:hover{background:var(--pei-panel-2)}
+.btn.primary{background:var(--pei-red);border-color:var(--pei-red);color:#fff}
+.btn.primary:hover{background:var(--pei-red-dark)}
+.btn small{font-family:Inter,sans-serif;text-transform:none;letter-spacing:0;font-weight:500;opacity:.85}
+.specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px 28px;margin:8px 0 8px;padding:18px 0;border-top:1px solid var(--pei-border);border-bottom:1px solid var(--pei-border);list-style:none;font-size:14px}
+.specs b{color:var(--pei-cream);font-weight:600}
+nav.jump{display:flex;gap:18px;margin:22px 0 0;font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.08em;font-size:14px}
+nav.jump a{text-decoration:none;color:var(--pei-cream)} nav.jump a:hover{color:var(--pei-red)}
+.io{margin-top:56px}
+.io-head h2{color:var(--pei-cream);font-weight:600;font-size:clamp(26px,3vw,38px)}
+#io1 .io-head h2::after{content:"";display:block;width:56px;height:3px;background:var(--gen-logo);margin-top:8px}
+#io2 .io-head h2::after{content:"";display:block;width:56px;height:3px;background:var(--pei-red);margin-top:8px}
+.io-head p{color:var(--pei-muted);font-size:14px;margin-top:6px}
+.lang h3{color:var(--pei-cream);font-weight:500;font-size:18px;letter-spacing:.1em;margin:30px 0 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:16px}
+.card{background:var(--pei-panel);border:1px solid var(--pei-border);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:12px}
+.frame{height:250px;display:flex;align-items:center;justify-content:center;background:var(--pei-black-2);border-radius:8px;overflow:hidden}
+.frame img,.frame video{display:block;max-width:100%;max-height:100%;width:auto;height:auto}
+.meta{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.size{color:var(--pei-cream);font-weight:600;font-size:18px;letter-spacing:.04em}
+.play{background:none;border:1px solid var(--pei-border);color:var(--pei-text);border-radius:6px;padding:5px 10px;font-size:12px;letter-spacing:.06em;cursor:pointer}
+.play:hover,.play[aria-pressed="true"]{border-color:var(--pei-red);color:var(--pei-cream)}
+.play .en{color:inherit;opacity:.7}
+.dl{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.dl a{display:flex;flex-direction:column;align-items:center;padding:9px 6px;border-radius:8px;background:#191919;border:1px solid var(--pei-border);text-decoration:none;color:var(--pei-cream);font-weight:600;font-size:15px;letter-spacing:.05em;transition:background .15s}
+.dl a:hover{background:var(--pei-red);border-color:var(--pei-red);color:#fff}
+.dl small{font-family:Inter,sans-serif;text-transform:none;letter-spacing:0;font-weight:500;font-size:12px;color:inherit;opacity:.8}
+a:focus-visible,button:focus-visible{outline:2px solid var(--pei-cream);outline-offset:3px}
+footer{margin-top:64px;padding-top:20px;border-top:1px solid var(--pei-border);font-size:13px;color:var(--pei-muted)}
+@media (max-width:640px){.btn{flex-direction:column;align-items:flex-start;gap:2px}.wrap{padding:28px 16px 64px}.top img{width:110px}.grid{grid-template-columns:1fr}.frame{height:220px}}
+
+.langswitch{display:flex;justify-content:flex-end;margin:-8px 0 8px}
+.langswitch a{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.1em;font-size:14px;color:var(--pei-cream);text-decoration:none;border:1px solid var(--pei-border);border-radius:6px;padding:6px 12px}
+.langswitch a:hover{border-color:var(--pei-red)}
+.proofs{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:baseline;margin:0 0 18px;font-size:14px}
+.proofs span{font-family:Oswald,sans-serif;text-transform:uppercase;letter-spacing:.1em;color:var(--pei-cream)}
+.proofs a{color:var(--pei-text);text-underline-offset:3px}
+.proofs a:hover{color:var(--pei-cream)}
+.click{font-size:12px;color:var(--pei-muted);overflow-wrap:anywhere;margin-top:-4px}
+.click a{color:var(--pei-text);text-underline-offset:2px}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <nav class="langswitch" aria-label="Langue / Language"><a href="../" hreflang="fr" lang="fr">Français</a></nav>
+  <div class="top">
+    <img src="../assets/PEI_logo_horse.png" alt="Poulin Électrique Inc">
+    <div>
+      <p class="kicker">Evanov Communications · Display 2026</p>
+      <h1>Display creatives</h1>
+      <p class="lead">Files for IO 1 (Generac) and IO 2 (Poulin Électrique), in French and English.</p>
+    </div>
+  </div>
+
+  <div class="actions">
+    <a class="btn primary" href="../Evanov_PEI_display_2026-10.zip" download>Download all <small>ZIP · 7.1 MB</small></a>
+    <a class="btn" href="../Evanov_creative_list_EN.csv" download>Creative list <small>CSV</small></a>
+  </div>
+  <p class="proofs"><span>Proofs</span> <a href="../Proof_IO1-Generac_static.jpg" target="_blank" rel="noopener">IO 1 · Static</a> <a href="../Proof_IO2-Poulin_static.jpg" target="_blank" rel="noopener">IO 2 · Static</a> <a href="../Proof_IO1-Generac_video_300x250_FR.jpg" target="_blank" rel="noopener">IO 1 · Video 300x250 · FR</a> <a href="../Proof_IO1-Generac_video_300x250_EN.jpg" target="_blank" rel="noopener">IO 1 · Video 300x250 · EN</a> <a href="../Proof_IO2-Poulin_video_970x250_FR.jpg" target="_blank" rel="noopener">IO 2 · Video 970x250 · FR</a> <a href="../Proof_IO2-Poulin_video_970x250_EN.jpg" target="_blank" rel="noopener">IO 2 · Video 970x250 · EN</a></p>
+
+  <ul class="specs"><li><b>48 files</b> · 24 JPG + 24 MP4</li><li><b>6 sizes</b> · 300×250, 728×90, 160×600, 300×600, 970×250, 320×50</li><li><b>MP4</b> · H.264, no sound, 14.5 s, under 200 KB, plays once</li><li><b>Backup image</b> · the JPG of the same size</li><li><b>Click-through URL</b> · in the creative list and on each card</li></ul>
+
+  <nav class="jump" aria-label="Sections"><a href="#io1">IO 1 · Generac</a><a href="#io2">IO 2 · Poulin Électrique</a></nav>
+
+  <section class="io" id="io1">
+    <header class="io-head"><h2>IO 1 · Generac</h2><p>Tag A · Generac pages</p></header>
+    <section class="lang">
+      <h3>French creatives</h3>
+      <div class="grid">
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_FR_300x250.jpg" width="300" height="250" alt="300x250 FR" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_300x250.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_FR_300x250.jpg" width="300" height="250" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">300x250</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-fr&amp;utm_content=static-300x250" target="_blank" rel="noopener">www.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_FR_300x250.jpg" download>JPG <small>36.7 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_300x250.mp4" download>MP4 <small>14.5 s · 183.8 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_FR_728x90.jpg" width="728" height="90" alt="728x90 FR" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_728x90.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_FR_728x90.jpg" width="728" height="90" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">728x90</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-fr&amp;utm_content=static-728x90" target="_blank" rel="noopener">www.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_FR_728x90.jpg" download>JPG <small>32.3 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_728x90.mp4" download>MP4 <small>14.5 s · 184.6 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_FR_160x600.jpg" width="160" height="600" alt="160x600 FR" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_160x600.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_FR_160x600.jpg" width="160" height="600" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">160x600</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-fr&amp;utm_content=static-160x600" target="_blank" rel="noopener">www.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_FR_160x600.jpg" download>JPG <small>44.3 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_160x600.mp4" download>MP4 <small>14.5 s · 159.1 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_FR_300x600.jpg" width="300" height="600" alt="300x600 FR" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_300x600.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_FR_300x600.jpg" width="300" height="600" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">300x600</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-fr&amp;utm_content=static-300x600" target="_blank" rel="noopener">www.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_FR_300x600.jpg" download>JPG <small>70.0 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_300x600.mp4" download>MP4 <small>14.5 s · 174.0 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_FR_970x250.jpg" width="970" height="250" alt="970x250 FR" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_970x250.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_FR_970x250.jpg" width="970" height="250" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">970x250</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-fr&amp;utm_content=static-970x250" target="_blank" rel="noopener">www.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_FR_970x250.jpg" download>JPG <small>83.4 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_970x250.mp4" download>MP4 <small>14.5 s · 174.6 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_FR_320x50.jpg" width="320" height="50" alt="320x50 FR" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_320x50.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_FR_320x50.jpg" width="320" height="50" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">320x50</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-fr&amp;utm_content=static-320x50" target="_blank" rel="noopener">www.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_FR_320x50.jpg" download>JPG <small>10.0 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_FR_320x50.mp4" download>MP4 <small>14.5 s · 49.7 KB</small></a>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="lang">
+      <h3>English creatives</h3>
+      <div class="grid">
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_EN_300x250.jpg" width="300" height="250" alt="300x250 EN" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_300x250.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_EN_300x250.jpg" width="300" height="250" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">300x250</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-en&amp;utm_content=static-300x250" target="_blank" rel="noopener">en.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_EN_300x250.jpg" download>JPG <small>35.5 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_300x250.mp4" download>MP4 <small>14.5 s · 180.6 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_EN_728x90.jpg" width="728" height="90" alt="728x90 EN" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_728x90.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_EN_728x90.jpg" width="728" height="90" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">728x90</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-en&amp;utm_content=static-728x90" target="_blank" rel="noopener">en.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_EN_728x90.jpg" download>JPG <small>30.1 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_728x90.mp4" download>MP4 <small>14.5 s · 177.5 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_EN_160x600.jpg" width="160" height="600" alt="160x600 EN" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_160x600.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_EN_160x600.jpg" width="160" height="600" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">160x600</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-en&amp;utm_content=static-160x600" target="_blank" rel="noopener">en.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_EN_160x600.jpg" download>JPG <small>41.1 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_160x600.mp4" download>MP4 <small>14.5 s · 151.2 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_EN_300x600.jpg" width="300" height="600" alt="300x600 EN" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_300x600.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_EN_300x600.jpg" width="300" height="600" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">300x600</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-en&amp;utm_content=static-300x600" target="_blank" rel="noopener">en.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_EN_300x600.jpg" download>JPG <small>67.2 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_300x600.mp4" download>MP4 <small>14.5 s · 174.2 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_EN_970x250.jpg" width="970" height="250" alt="970x250 EN" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_970x250.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_EN_970x250.jpg" width="970" height="250" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">970x250</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-en&amp;utm_content=static-970x250" target="_blank" rel="noopener">en.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_EN_970x250.jpg" download>JPG <small>79.2 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_970x250.mp4" download>MP4 <small>14.5 s · 175.4 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO1-Generac/PEI_IO1-Generac_EN_320x50.jpg" width="320" height="50" alt="320x50 EN" loading="lazy">
+          <video src="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_320x50.mp4" poster="../Static/IO1-Generac/PEI_IO1-Generac_EN_320x50.jpg" width="320" height="50" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">320x50</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/generac-apercu?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io1-generac-en&amp;utm_content=static-320x50" target="_blank" rel="noopener">en.poulinelectrique.com/generac-apercu</a></p>
+        <div class="dl">
+          <a href="../Static/IO1-Generac/PEI_IO1-Generac_EN_320x50.jpg" download>JPG <small>10.0 KB</small></a>
+          <a href="../Video-MP4/IO1-Generac/PEI_IO1-Generac_EN_320x50.mp4" download>MP4 <small>14.5 s · 49.5 KB</small></a>
+        </div>
+      </article>
+      </div>
+    </section>
+  </section>
+  <section class="io" id="io2">
+    <header class="io-head"><h2>IO 2 · Poulin Électrique</h2><p>Tag B · brand</p></header>
+    <section class="lang">
+      <h3>French creatives</h3>
+      <div class="grid">
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_300x250.jpg" width="300" height="250" alt="300x250 FR" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_300x250.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_300x250.jpg" width="300" height="250" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">300x250</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-fr&amp;utm_content=static-300x250" target="_blank" rel="noopener">www.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_300x250.jpg" download>JPG <small>36.2 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_300x250.mp4" download>MP4 <small>14.5 s · 175.7 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_728x90.jpg" width="728" height="90" alt="728x90 FR" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_728x90.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_728x90.jpg" width="728" height="90" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">728x90</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-fr&amp;utm_content=static-728x90" target="_blank" rel="noopener">www.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_728x90.jpg" download>JPG <small>34.6 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_728x90.mp4" download>MP4 <small>14.5 s · 150.2 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_160x600.jpg" width="160" height="600" alt="160x600 FR" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_160x600.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_160x600.jpg" width="160" height="600" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">160x600</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-fr&amp;utm_content=static-160x600" target="_blank" rel="noopener">www.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_160x600.jpg" download>JPG <small>40.9 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_160x600.mp4" download>MP4 <small>14.5 s · 188.8 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_300x600.jpg" width="300" height="600" alt="300x600 FR" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_300x600.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_300x600.jpg" width="300" height="600" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">300x600</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-fr&amp;utm_content=static-300x600" target="_blank" rel="noopener">www.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_300x600.jpg" download>JPG <small>84.4 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_300x600.mp4" download>MP4 <small>14.5 s · 187.2 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_970x250.jpg" width="970" height="250" alt="970x250 FR" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_970x250.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_970x250.jpg" width="970" height="250" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">970x250</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-fr&amp;utm_content=static-970x250" target="_blank" rel="noopener">www.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_970x250.jpg" download>JPG <small>83.7 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_970x250.mp4" download>MP4 <small>14.5 s · 189.2 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_320x50.jpg" width="320" height="50" alt="320x50 FR" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_320x50.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_320x50.jpg" width="320" height="50" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">320x50</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://www.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-fr&amp;utm_content=static-320x50" target="_blank" rel="noopener">www.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_FR_320x50.jpg" download>JPG <small>9.2 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_FR_320x50.mp4" download>MP4 <small>14.5 s · 39.0 KB</small></a>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="lang">
+      <h3>English creatives</h3>
+      <div class="grid">
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_300x250.jpg" width="300" height="250" alt="300x250 EN" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_300x250.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_300x250.jpg" width="300" height="250" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">300x250</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-en&amp;utm_content=static-300x250" target="_blank" rel="noopener">en.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_300x250.jpg" download>JPG <small>35.9 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_300x250.mp4" download>MP4 <small>14.5 s · 174.0 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_728x90.jpg" width="728" height="90" alt="728x90 EN" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_728x90.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_728x90.jpg" width="728" height="90" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">728x90</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-en&amp;utm_content=static-728x90" target="_blank" rel="noopener">en.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_728x90.jpg" download>JPG <small>32.8 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_728x90.mp4" download>MP4 <small>14.5 s · 152.8 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_160x600.jpg" width="160" height="600" alt="160x600 EN" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_160x600.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_160x600.jpg" width="160" height="600" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">160x600</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-en&amp;utm_content=static-160x600" target="_blank" rel="noopener">en.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_160x600.jpg" download>JPG <small>41.4 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_160x600.mp4" download>MP4 <small>14.5 s · 188.7 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_300x600.jpg" width="300" height="600" alt="300x600 EN" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_300x600.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_300x600.jpg" width="300" height="600" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">300x600</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-en&amp;utm_content=static-300x600" target="_blank" rel="noopener">en.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_300x600.jpg" download>JPG <small>84.4 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_300x600.mp4" download>MP4 <small>14.5 s · 187.8 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_970x250.jpg" width="970" height="250" alt="970x250 EN" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_970x250.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_970x250.jpg" width="970" height="250" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">970x250</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-en&amp;utm_content=static-970x250" target="_blank" rel="noopener">en.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_970x250.jpg" download>JPG <small>86.7 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_970x250.mp4" download>MP4 <small>14.5 s · 189.6 KB</small></a>
+        </div>
+      </article>
+      <article class="card">
+        <div class="frame">
+          <img src="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_320x50.jpg" width="320" height="50" alt="320x50 EN" loading="lazy">
+          <video src="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_320x50.mp4" poster="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_320x50.jpg" width="320" height="50" preload="none" muted playsinline controls hidden></video>
+        </div>
+        <div class="meta">
+          <span class="size">320x50</span>
+          <button class="play" type="button" aria-pressed="false">Video preview</button>
+        </div>
+        <p class="click">Click · <a href="https://en.poulinelectrique.com/?utm_source=evanov&amp;utm_medium=display&amp;utm_campaign=io2-marque-en&amp;utm_content=static-320x50" target="_blank" rel="noopener">en.poulinelectrique.com/</a></p>
+        <div class="dl">
+          <a href="../Static/IO2-Poulin/PEI_IO2-Poulin_EN_320x50.jpg" download>JPG <small>9.3 KB</small></a>
+          <a href="../Video-MP4/IO2-Poulin/PEI_IO2-Poulin_EN_320x50.mp4" download>MP4 <small>14.5 s · 39.1 KB</small></a>
+        </div>
+      </article>
+      </div>
+    </section>
+  </section>
+
+  <footer>Poulin Électrique Inc · Electrician in Saint-Lazare · Authorized Generac dealer and service centre</footer>
+</main>
+<script>
+document.querySelectorAll('.card').forEach(c => {
+  const b = c.querySelector('.play'), img = c.querySelector('img'), v = c.querySelector('video');
+  b.addEventListener('click', () => {
+    const on = b.getAttribute('aria-pressed') !== 'true';
+    b.setAttribute('aria-pressed', on);
+    img.hidden = on; v.hidden = !on;
+    if (on) { v.currentTime = 0; v.play().catch(() => {}); } else v.pause();
+  });
+});
+</script>
+</body>
+</html>
